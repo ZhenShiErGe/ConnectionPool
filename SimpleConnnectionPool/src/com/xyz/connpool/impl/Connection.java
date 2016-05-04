@@ -1,4 +1,7 @@
-package com.xyz.connpool;
+package com.xyz.connpool.impl;
+
+import com.xyz.connpool.IConnPool;
+import com.xyz.connpool.IConnection;
 
 public class Connection implements IConnection {
 	private String name;
